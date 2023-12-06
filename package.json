@@ -1,0 +1,19 @@
+{
+  "name": "party-jene",
+  "version": "1.0.0",
+  "description": "This is a basic readme template for a simple website project.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfeliweb/party-jene.git"
+  },
+  "author": "Jean Felisme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfeliweb/party-jene/issues"
+  },
+  "homepage": "https://github.com/jfeliweb/party-jene#readme"
+}
