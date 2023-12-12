@@ -15,8 +15,11 @@ body {
 	font-size: 16px;
 	line-height: 33px;
 	text-align: center;
-	color: #2c1d57;
-	background-color: #f8cec7;
+	color: #1956ca;
+	background-color: rgb(164, 240, 254);
+	background-image: url('/images/jfeliweb-birthday-over-landing.png');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 /* header */
 h1,
@@ -29,7 +32,7 @@ h6 {
 	font-style: normal;
 	line-height: 58px;
 	margin: 20px 0;
-	color: #2c1d57;
+	color: #1956ca;
 	position: relative;
 	z-index: 50;
 }
@@ -44,6 +47,9 @@ h6 {
 	margin: 60px auto;
 	position: relative;
 	z-index: 50;
+	background-color: #83e7ad85;
+	border-radius: 15px;
+	padding: 20px;
 }
 h1 {
 	font-weight: 700;
@@ -95,7 +101,7 @@ a {
 	font-weight: 600;
 	font-size: 32px;
 	line-height: 44px;
-	color: #2c1d57;
+	color: #1d2157;
 }
 button.rsvpButton {
 	background: #94ccce;
@@ -122,7 +128,7 @@ button.rsvpButton {
 	background: #d9d9d9;
 	border: 1px solid #94ccce;
 	border-radius: 10px;
-	color: #2c1d57;
+	color: #1d1f57;
 	width: 230px;
 	height: 40px;
 	padding: 0px 10px;
@@ -179,11 +185,11 @@ form#fs-frm {
 	margin-bottom: 0;
 }
 
-.blobs {
+/* .blobs {
 	position: absolute;
 	z-index: 10;
-}
-#blobsOne,
+} */
+/* #blobsOne,
 #blobsTwo,
 #blobsThree,
 #blobsFour,
@@ -191,8 +197,8 @@ form#fs-frm {
 #blobsSix {
 	height: auto;
 	position: absolute;
-}
-#blobsOne {
+} */
+/* #blobsOne {
 	top: 3rem;
 	left: 4rem;
 	width: 15rem;
@@ -201,8 +207,8 @@ form#fs-frm {
 	top: 8rem;
 	left: 10rem;
 	width: 25rem;
-}
-#blobsThree {
+} */
+/* #blobsThree {
 	top: 0rem;
 	left: 8rem;
 	width: 30rem;
@@ -211,8 +217,8 @@ form#fs-frm {
 	top: 21rem;
 	left: -8rem;
 	width: 21rem;
-}
-#blobsFive {
+} */
+/* #blobsFive {
 	display: none;
 	top: 75rem;
 	left: -10rem;
@@ -223,7 +229,7 @@ form#fs-frm {
 	top: 80rem;
 	left: 18rem;
 	width: 35rem;
-}
+} */
 
 /* Footer */
 
@@ -281,7 +287,7 @@ form#fs-frm {
 	#fs-frm input {
 		width: 100%;
 	}
-	#blobsOne {
+	/* #blobsOne {
 		top: -19rem;
 		left: -20rem;
 		width: 60rem;
@@ -291,8 +297,8 @@ form#fs-frm {
 		top: -10rem;
 		left: 33rem;
 		width: 44rem;
-	}
-	#blobsThree {
+	} */
+	/* #blobsThree {
 		top: -16rem;
 		left: 20rem;
 		width: 26rem;
@@ -302,8 +308,8 @@ form#fs-frm {
 		top: -6rem;
 		left: -8rem;
 		width: 21rem;
-	}
-	#blobsFive {
+	} */
+	/* #blobsFive {
 		display: inline;
 		top: -24rem;
 		left: 34rem;
@@ -314,7 +320,7 @@ form#fs-frm {
 		top: -18rem;
 		left: -10rem;
 		width: 35rem;
-	}
+	} */
 }
 
 /* Desktop */
@@ -323,7 +329,7 @@ form#fs-frm {
 	.rsvpForm {
 		max-width: 800px;
 	}
-	#blobsTwo {
+	/* #blobsTwo {
 		top: -20rem;
 		left: 65rem;
 		width: 75rem;
@@ -352,27 +358,27 @@ form#fs-frm {
 		left: -10rem;
 		width: 41rem;
 		transform: rotate(180deg);
-	}
+	} */
 }
 /* Animations */
 /* animation color-change-2x */
-.color-change-2x {
+/* .color-change-2x {
 	-webkit-animation: color-change-2x 3s linear infinite alternate both;
 	animation: color-change-2x 3s linear infinite alternate both;
-}
-@-webkit-keyframes color-change-2x {
+} */
+/* @-webkit-keyframes color-change-2x {
 	0% {
-		background: #19dcea;
+		background: #00c358;
 	}
 	100% {
-		background: #f8cec7;
+		background: #46a5ff;
 	}
-}
-@keyframes color-change-2x {
+} */
+/* @keyframes color-change-2x {
 	0% {
-		background: #19dcea;
+		background: #83e7ad;
 	}
 	100% {
-		background: #f8cec7;
+		background: #00aaff;
 	}
-}
+} */
